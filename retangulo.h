@@ -8,7 +8,9 @@ class Retangulo
 public:
     Retangulo(int x, int y, int largura, int altura);
     ~Retangulo();
+    Retangulo imprime(int x,int y, int altura, int largura);
 
 };
 
 #endif // RETANGULO_H
+
